@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abarrotes El Central - Venta al Por Mayor y Menor</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font (Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 smooth-scroll">
+
+    <!-- Header & Navegación -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-store text-emerald-600 text-2xl"></i>
+                <span class="font-bold text-xl text-gray-900 tracking-wide">Abarrotes <span class="text-emerald-600">El Central</span></span>
+            </div>
+            <nav class="hidden md:flex space-x-6 font-medium text-gray-600">
+                <a href="#inicio" class="hover:text-emerald-600 transition">Inicio</a>
+                <a href="#precios" class="hover:text-emerald-600 transition">Lista de Precios</a>
+                <a href="#beneficios" class="hover:text-emerald-600 transition">Mayoreo</a>
+                <a href="#contacto" class="hover:text-emerald-600 transition">Contacto</a>
+            </nav>
+            <a href="https://wa.me/51987654321?text=Hola,%20quisiera%20hacer%20un%20pedido" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-lg font-medium shadow-md transition flex items-center gap-2">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                <span>Hacer Pedido</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="bg-gradient-to-r from-emerald-800 to-teal-700 text-white py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+            <div class="md:w-1/2 space-y-4">
+                <span class="bg-emerald-500/30 text-emerald-200 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Venta Mayorista y Minorista</span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight">Los mejores precios para tu hogar y tu negocio</h1>
+                <p class="text-emerald-100 text-lg">Surtido completo de productos de primera necesidad. Consulta nuestra lista actualizada de precios e incrementa tus ganancias comprando al por mayor.</p>
+                <div class="pt-2 flex flex-wrap gap-4">
+                    <a href="#precios" class="bg-white text-emerald-800 hover:bg-emerald-50 px-6 py-3 rounded-xl font-bold shadow-lg transition flex items-center gap-2">
+                        <i class="fa-solid fa-list-check"></i> Ver Lista de Precios
+                    </a>
+                    <a href="#contacto" class="border border-white/40 hover:bg-white/10 text-white px-6 py-3 rounded-xl font-semibold transition">
+                        Ubicación y Horarios
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80" alt="Tienda de Abarrotes" class="rounded-2xl shadow-2xl object-cover max-h-96 w-full max-w-md border-4 border-white/20" onerror="this.src='https://placehold.co/600x400/047857/ffffff?text=Abarrotes+El+Central'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Beneficios -->
+    <section id="beneficios" class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center mx-auto mb-4 text-xl">
+                    <i class="fa-solid fa-boxes-packing"></i>
+                </div>
+                <h3 class="font-bold text-lg text-gray-900 mb-2">Descuentos por Caja / Bulto</h3>
+                <p class="text-gray-600 text-sm">Obtén tarifas preferenciales al comprar por volumen para tu tienda o bodega.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center mx-auto mb-4 text-xl">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <h3 class="font-bold text-lg text-gray-900 mb-2">Envío Directo a Tu Negocio</h3>
+                <p class="text-gray-600 text-sm">Despachamos pedidos mayoristas de forma rápida y segura a tu local.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center mx-auto mb-4 text-xl">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h3 class="font-bold text-lg text-gray-900 mb-2">Garantía de Frescura</h3>
+                <p class="text-gray-600 text-sm">Productos de alta calidad con fechas de vencimiento vigentes y de marcas confiables.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Lista de Precios Interactiva -->
+    <section id="precios" class="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900">Lista de Precios Actualizada</h2>
+                <p class="text-gray-600 mt-1">Precios por unidad y al por mayor (precios válidos hasta agotar stock).</p>
+            </div>
+
+            <!-- Buscador -->
+            <div class="relative w-full md:w-80">
+                <i class="fa-solid fa-magnifying-glass absolute left-3 top-3.5 text-gray-400"></i>
+                <input type="text" id="searchInput" onkeyup="filterProducts()" placeholder="Buscar producto..." class="w-full pl-10 pr-4 py-2.5 bg-white border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 shadow-sm text-sm">
+            </div>
+        </div>
+
+        <!-- Filtros de Categoría -->
+        <div class="flex flex-wrap gap-2 mb-6" id="categoryButtons">
+            <button onclick="filterCategory('all')" class="cat-btn active bg-emerald-600 text-white px-4 py-2 rounded-lg font-medium text-sm transition">Todos</button>
+            <button onclick="filterCategory('arroz-granos')" class="cat-btn bg-white border border-gray-300 text-gray-700 hover:bg-gray-100 px-4 py-2 rounded-lg font-medium text-sm transition">Arroz y Legumbres</button>
+            <button onclick="filterCategory('aceites-lacteos')" class="cat-btn bg-white border border-gray-300 text-gray-700 hover:bg-gray-100 px-4 py-2 rounded-lg font-medium text-sm transition">Aceites y Lácteos</button>
+            <button onclick="filterCategory('azucar-harina')" class="cat-btn bg-white border border-gray-300 text-gray-700 hover:bg-gray-100 px-4 py-2 rounded-lg font-medium text-sm transition">Azúcar y Harinas</button>
+            <button onclick="filterCategory('limpieza')" class="cat-btn bg-white border border-gray-300 text-gray-700 hover:bg-gray-100 px-4 py-2 rounded-lg font-medium text-sm transition">Limpieza</button>
+        </div>
+
+        <!-- Tabla de Productos -->
+        <div class="bg-white rounded-2xl shadow-md border border-gray-200 overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+                <thead>
+                    <tr class="bg-gray-100 border-b border-gray-200 text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                        <th class="p-4">Producto</th>
+                        <th class="p-4">Categoría</th>
+                        <th class="p-4">Presentación</th>
+                        <th class="p-4">Precio Menor</th>
+                        <th class="p-4 text-emerald-700">Precio Mayorista</th>
+                        <th class="p-4 text-center">Estado</th>
+                    </tr>
+                </thead>
+                <tbody id="productTable" class="divide-y divide-gray-200 text-sm">
+                    <!-- Fila 1 -->
+                    <tr class="product-row hover:bg-gray-50" data-category="arroz-granos">
+                        <td class="p-4 font-semibold text-gray-900">Arroz Extra Superior</td>
+                        <td class="p-4 text-gray-500">Arroz y Legumbres</td>
+                        <td class="p-4 text-gray-600">Saco 50 kg</td>
+                        <td class="p-4 text-gray-900 font-medium">$45.00</td>
+                        <td class="p-4 text-emerald-600 font-bold">$40.50 <span class="text-xs text-gray-400 font-normal">(min. 3 sacos)</span></td>
+                        <td class="p-4 text-center"><span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-1 rounded-full">Disponible</span></td>
+                    </tr>
+                    <!-- Fila 2 -->
+                    <tr class="product-row hover:bg-gray-50" data-category="aceites-lacteos">
+                        <td class="p-4 font-semibold text-gray-900">Aceite Vegetal Premium</td>
+                        <td class="p-4 text-gray-500">Aceites y Lácteos</td>
+                        <td class="p-4 text-gray-600">Caja (12 botellas 1L)</td>
+                        <td class="p-4 text-gray-900 font-medium">$3.50 / bot.</td>
+                        <td class="p-4 text-emerald-600 font-bold">$34.00 / caja</td>
+                        <td class="p-4 text-center"><span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-1 rounded-full">Disponible</span></td>
+                    </tr>
+                    <!-- Fila 3 -->
+                    <tr class="product-row hover:bg-gray-50" data-category="azucar-harina">
+                        <td class="p-4 font-semibold text-gray-900">Azúcar Rubia Especial</td>
+                        <td class="p-4 text-gray-500">Azúcar y Harinas</td>
+                        <td class="p-4 text-gray-600">Saco 50 kg</td>
+                        <td class="p-4 text-gray-900 font-medium">$38.00</td>
+                        <td class="p-4 text-emerald-600 font-bold">$34.50 <span class="text-xs text-gray-400 font-normal">(min. 2 sacos)</span></td>
+                        <td class="p-4 text-center"><span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-1 rounded-full">Disponible</span></td>
+                    </tr>
+                    <!-- Fila 4 -->
+                    <tr class="product-row hover:bg-gray-50" data-category="azucar-harina">
+                        <td class="p-4 font-semibold text-gray-900">Harina de Trigo Preparada</td>
+                        <td class="p-4 text-gray-500">Azúcar y Harinas</td>
+                        <td class="p-4 text-gray-600">Paquete 1 kg (Fardo x 10)</td>
+                        <td class="p-4 text-gray-900 font-medium">$1.40 / kg</td>
+                        <td class="p-4 text-emerald-600 font-bold">$12.00 / fardo</td>
+                        <td class="p-4 text-center"><span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-1 rounded-full">Disponible</span></td>
+                    </tr>
+                    <!-- Fila 5 -->
+                    <tr class="product-row hover:bg-gray-50" data-category="arroz-granos">
+                        <td class="p-4 font-semibold text-gray-900">Lenteja Selecta Premium</td>
+                        <td class="p-4 text-gray-500">Arroz y Legumbres</td>
+                        <td class="p-4 text-gray-600">Saco 25 kg</td>
+                        <td class="p-4 text-gray-900 font-medium font-medium">$28.00</td>
+                        <td class="p-4 text-emerald-600 font-bold">$25.00</td>
+                        <td class="p-4 text-center"><span class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-1 rounded-full">Pocas unidades</span></td>
+                    </tr>
+                    <!-- Fila 6 -->
+                    <tr class="product-row hover:bg-gray-50" data-category="limpieza">
+                        <td class="p-4 font-semibold text-gray-900">Detergente Multiusos 500g</td>
+                        <td class="p-4 text-gray-500">Limpieza</td>
+                        <td class="p-4 text-gray-600">Caja (24 unidades)</td>
+                        <td class="p-4 text-gray-900 font-medium">$1.80 / unid.</td>
+                        <td class="p-4 text-emerald-600 font-bold">$36.00 / caja</td>
+                        <td class="p-4 text-center"><span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-1 rounded-full">Disponible</span></td>
+                    </tr>
+                    <!-- Fila 7 -->
+                    <tr class="product-row hover:bg-gray-50" data-category="aceites-lacteos">
+                        <td class="p-4 font-semibold text-gray-900">Leche Evaporada Entera</td>
+                        <td class="p-4 text-gray-500">Aceites y Lácteos</td>
+                        <td class="p-4 text-gray-600">Caja (24 latas 400g)</td>
+                        <td class="p-4 text-gray-900 font-medium">$1.30 / lata</td>
+                        <td class="p-4 text-emerald-600 font-bold">$26.50 / caja</td>
+                        <td class="p-4 text-center"><span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-1 rounded-full">Disponible</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Sección de Ubicación y Contacto -->
+    <section id="contacto" class="py-12 bg-gray-100 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Formulario / Botón de Pedido por WhatsApp -->
+            <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-200 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">¿Haz tu cotización o pedido?</h3>
+                    <p class="text-gray-600 mb-6">Envíanos la lista de productos que necesitas y te responderemos inmediatamente con el total y fecha de entrega.</p>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center gap-3 text-gray-700">
+                            <i class="fa-solid fa-phone text-emerald-600 text-lg"></i>
+                            <span>+51 987 654 321 / (01) 456-7890</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-gray-700">
+                            <i class="fa-solid fa-envelope text-emerald-600 text-lg"></i>
+                            <span>ventas@abarroteselcentral.com</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-gray-700">
+                            <i class="fa-solid fa-clock text-emerald-600 text-lg"></i>
+                            <span>Lunes a Sábado: 7:00 AM - 7:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/51987654321?text=Hola,%20quisiera%20pedir%20una%20cotización%20al%20por%20mayor" target="_blank" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 rounded-xl shadow-lg transition flex items-center justify-center gap-3 text-lg">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span>Contactar por WhatsApp</span>
+                </a>
+            </div>
+
+            <!-- Información de Ubicación -->
+            <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-200">
+                <h3 class="text-2xl font-bold text-gray-900 mb-2">Visítanos en Almacén</h3>
+                <p class="text-gray-600 mb-4"><i class="fa-solid fa-location-dot text-emerald-600 mr-2"></i>Av. Central 1234, Zona Comercial N° 4</p>
+                
+                <!-- Mapa Estático / Placeholder -->
+                <div class="w-full h-64 bg-gray-200 rounded-xl overflow-hidden relative">
+                    <iframe 
+                        class="w-full h-full border-0" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.9654160408543!2d-77.0315!3d-12.046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDAyJzE1LjYiUyA3N8KwMDEnNTMuNCJX!5e0!3m2!1ses!2spe!4v1600000000000!5m2!1ses!2spe" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 text-center text-sm">
+            <p class="mb-2">&copy; 2026 Abarrotes El Central - Venta al Por Mayor y Menor. Todos los derechos reservados.</p>
+            <p class="text-xs text-gray-500">Los precios están sujetos a cambios sin previo aviso según fluctuaciones del mercado.</p>
+        </div>
+    </footer>
+
+    <!-- Script de Filtro y Búsqueda -->
+    <script>
+        let currentCategory = 'all';
+
+        function filterCategory(category) {
+            currentCategory = category;
+            
+            // Actualizar estilo de botones
+            const buttons = document.querySelectorAll('.cat-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-emerald-600', 'text-white');
+                btn.classList.add('bg-white', 'text-gray-700', 'border', 'border-gray-300');
+            });
+
+            event.target.classList.remove('bg-white', 'text-gray-700', 'border', 'border-gray-300');
+            event.target.classList.add('bg-emerald-600', 'text-white');
+
+            filterProducts();
+        }
+
+        function filterProducts() {
+            const searchValue = document.getElementById('searchInput').value.toLowerCase();
+            const rows = document.querySelectorAll('.product-row');
+
+            rows.forEach(row => {
+                const productName = row.cells[0].textContent.toLowerCase();
+                const productCategory = row.getAttribute('data-category');
+
+                const matchesCategory = (currentCategory === 'all' || productCategory === currentCategory);
+                const matchesSearch = productName.includes(searchValue);
+
+                if (matchesCategory && matchesSearch) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
